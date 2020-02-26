@@ -1,9 +1,6 @@
 package edu.ti.filesandstreams.structured;
 
-import com.sun.org.apache.xerces.internal.impl.xs.SchemaNamespaceSupport;
-
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
