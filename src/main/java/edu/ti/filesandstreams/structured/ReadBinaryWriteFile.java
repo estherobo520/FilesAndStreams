@@ -33,9 +33,7 @@ public class ReadBinaryWriteFile {
                                 new FileInputStream(fileName))) {
 
             readFromFileSpecies = (Species[]) inputStream.readObject();
-
-            //todo: split into per line
-
+            
         } catch (Exception e) {
             System.out.println("Error reading file " + fileName + ": " + e.getMessage());
         }
